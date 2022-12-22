@@ -1,0 +1,24 @@
+warning: in the working copy of 'app/src/main/java/com/example/binarku/MainActivity.kt', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/app/src/main/java/com/example/binarku/MainActivity.kt b/app/src/main/java/com/example/binarku/MainActivity.kt[m
+[1mindex 14ba467..e74be36 100644[m
+[1m--- a/app/src/main/java/com/example/binarku/MainActivity.kt[m
+[1m+++ b/app/src/main/java/com/example/binarku/MainActivity.kt[m
+[36m@@ -9,5 +9,17 @@[m [mclass MainActivity : AppCompatActivity() {[m
+         setContentView(R.layout.activity_main)[m
+ [m
+      println("Tugas 1 Binarku")[m
+[32m+[m
+[32m+[m[32m        val x = 2[m
+[32m+[m[32m        val y = 3[m
+[32m+[m[32m        val a = x + y[m
+[32m+[m[32m        val b = x - y[m
+[32m+[m[32m        val c = x * y[m
+[32m+[m[32m        val d = x / y[m
+[32m+[m
+[32m+[m[32m        println("Pertambahan = $a")[m
+[32m+[m[32m        println("Pengurangan = $b")[m
+[32m+[m[32m        println("Perkalian = $c")[m
+[32m+[m[32m        println("Pembagian = $d")[m
+     }[m
+ }[m
+\ No newline at end of file[m

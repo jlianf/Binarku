@@ -9,5 +9,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
      println("Tugas 1 Binarku")
+        println("Latihan Github")
     }
 }
