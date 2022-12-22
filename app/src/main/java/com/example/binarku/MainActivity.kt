@@ -10,5 +10,6 @@ class MainActivity : AppCompatActivity() {
 
      println("Tugas 1 Binarku")
         println("Latihan Github")
+        println("Edit di Github Editor")
     }
 }
