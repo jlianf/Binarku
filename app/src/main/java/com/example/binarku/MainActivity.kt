@@ -11,5 +11,10 @@ class MainActivity : AppCompatActivity() {
      println("Tugas 1 Binarku")
         println("Latihan Github")
         println("Edit di Github Editor")
+
+        val x = 2
+        val y = 3
+        val a = x + y
+        println("Pertambahan = $a")
     }
 }
